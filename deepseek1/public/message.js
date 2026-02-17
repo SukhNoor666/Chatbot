@@ -21,7 +21,7 @@ async function sendMessage() {
   chatBox.innerHTML += `<div class="user-message">You: ${prompt}</div>`;
   inputBox.value = "";
   stopBtn.disabled = false;
-  isGenerating = true;
+  isGenerating = true;  
 
   try {
     // instantiate a new abort controller for this  generation
